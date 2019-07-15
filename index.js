@@ -5,7 +5,7 @@ function inOrder(currentNode){
 
 function min(currentNode){
   
-  if(currentNode.left === null){
+  if(currentNode.left){
     return currentNode;
   }else{
     min(currentNode.left)
