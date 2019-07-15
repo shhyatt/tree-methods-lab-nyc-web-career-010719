@@ -19,6 +19,7 @@ function max(currentNode){
   }
 }
 
-function findOrAdd(currentNode, data){
+function findOrAdd(currentNode, newNode){
+  
   
 }
