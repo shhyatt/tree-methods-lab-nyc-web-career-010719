@@ -5,9 +5,11 @@ function inOrder(currentNode){
 
 function min(node){
   let currentNode = node
-  if(node.left === null){
-    return node;
-  }else if
+  if(CurrentNode.left === null){
+    return CurrentNode;
+  }else{
     
   }
+    
+  
 }
