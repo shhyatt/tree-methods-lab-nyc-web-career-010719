@@ -3,12 +3,12 @@ function inOrder(currentNode){
   //let rootNode = currentNode;
 }
 
-function min(node){
-  let currentNode = node
-  if(CurrentNode.left === null){
-    return CurrentNode;
+function min(currentNode){
+  
+  if(currentNode.left === null){
+    return currentNode;
   }else{
-    min(CurrentNode.left)
+    min(currentNode.left)
   }
     
   
