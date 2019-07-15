@@ -1,7 +1,3 @@
-function inOrder(currentNode){
-  let ordered = [];
-  //let rootNode = currentNode;
-}
 
 function min(currentNode){
   if(currentNode.left){
@@ -27,7 +23,6 @@ function findOrAdd(currentNode, newNode){
     if(currentNode.right){
       return findOrAdd(currentNode.right, newNode)
     }else{
-      
       return currentNode.right = newNode; 
     }
     
@@ -39,5 +34,6 @@ function findOrAdd(currentNode, newNode){
       return currentNode.left = newNode;
     }
   }
-  
 }
+
+function inOrder()
