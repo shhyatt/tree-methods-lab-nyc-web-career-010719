@@ -38,8 +38,8 @@ function findOrAdd(currentNode, newNode){
 
 function inOrder(currentNode){
   if(currentNode.left){
-    
-    
-    
+    inOrder(currentNode.left)
   }
+  console.log(currentNode.left)
+  if()
 }
