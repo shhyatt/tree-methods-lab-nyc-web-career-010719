@@ -1,3 +1,3 @@
 function inOrder(currentNode){
-  let currentNode = rootNode
+  let currentNode = rootNode;
 }
