@@ -36,4 +36,9 @@ function findOrAdd(currentNode, newNode){
   }
 }
 
-function inOrder()
+function inOrder(currentNode){
+  if(currentNode.left !== null){
+    
+    
+  }
+}
