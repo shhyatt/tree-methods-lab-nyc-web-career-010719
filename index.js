@@ -37,7 +37,8 @@ function findOrAdd(currentNode, newNode){
 }
 
 function inOrder(currentNode){
-  if(currentNode.left !== null){
+  if(currentNode.left){
+    
     
     
   }
