@@ -24,7 +24,9 @@ function findOrAdd(currentNode, newNode){
     return true
   }
   if(currentNode.data < newNode.data){
-    
+    if(currentNode.right){
+      
+    }
     
   }
   
