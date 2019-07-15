@@ -23,6 +23,8 @@ function findOrAdd(currentNode, newNode){
   if(currentNode.data === newNode.data){
     return true
   }
-  
+  if(currentNode.data < newNode.data){
+    
+  }
   
 }
