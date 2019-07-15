@@ -8,7 +8,7 @@ function min(node){
   if(CurrentNode.left === null){
     return CurrentNode;
   }else{
-    
+    min(CurrentNode.left)
   }
     
   
