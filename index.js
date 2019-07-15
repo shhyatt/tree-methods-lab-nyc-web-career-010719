@@ -6,9 +6,9 @@ function inOrder(currentNode){
 function min(currentNode){
   
   if(currentNode.left){
-    return currentNode;
+    return min(currentNode.left)
   }else{
-    min(currentNode.left)
+    return currentNode.left
   }
     
   
