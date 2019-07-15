@@ -1,4 +1,5 @@
 function inOrder(currentNode){
-  let currentNode = rootNode;
+  let ordered = [];
+  let rootNode = currentNode;
   
 }
