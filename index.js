@@ -41,6 +41,7 @@ function inOrder(currentNode){
     inOrder(currentNode.left)
   }
   console.log(currentNode.left)
+  
   if(currentNode.right){
     inOrder(currentNode.right)
   }
