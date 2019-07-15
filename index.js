@@ -20,6 +20,9 @@ function max(currentNode){
 }
 
 function findOrAdd(currentNode, newNode){
+  if(currentNode.data === newNode.data){
+    return true
+  }
   
   
 }
