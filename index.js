@@ -10,6 +10,5 @@ function min(currentNode){
   }else{
     return currentNode.left
   }
-    
   
 }
